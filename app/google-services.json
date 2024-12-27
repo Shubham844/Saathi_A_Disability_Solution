@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "887259474134",
+    "firebase_url": "https://fir-realtime-c85e6-default-rtdb.firebaseio.com",
+    "project_id": "fir-realtime-c85e6",
+    "storage_bucket": "fir-realtime-c85e6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887259474134:android:7ac3f416ef510aa7e64177",
+        "android_client_info": {
+          "package_name": "com.example.firebaserealtime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFsmXRiI83emDLSQb2dUXU9X1-pU92ZAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887259474134:android:c5cc3210855f423ee64177",
+        "android_client_info": {
+          "package_name": "com.example.myapplication.saathi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFsmXRiI83emDLSQb2dUXU9X1-pU92ZAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

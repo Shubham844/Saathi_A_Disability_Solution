@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp"
+    android:layout_margin="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvNameItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvPhoneItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Review"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@id/tvNameItem"
+            app:layout_constraintTop_toBottomOf="@id/tvNameItem" />
+
+        <TextView
+            android:id="@+id/tvFNItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Full Name"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/tvPhoneItem"
+            app:layout_constraintTop_toBottomOf="@id/tvPhoneItem" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    app:cardCornerRadius="10dp"-->
+    <!--    android:elevation="10dp"-->
+    <!--    android:layout_margin="10dp">-->
+
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="20dp">-->
+
+
+
+    <!--        <TextView-->
+    <!--            android:id="@id/tvNameItem"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="place name"-->
+    <!--            android:textSize="25sp"-->
+    <!--            android:textStyle="bold"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@id/tvPhoneItem"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="30dp"-->
+    <!--            android:text="review"-->
+    <!--            android:textSize="20sp"-->
+    <!--            app:layout_constraintStart_toStartOf="@id/tvNameItem"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/tvNameItem" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@id/tvFNItem"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="32dp"-->
+    <!--            android:text="Full Name"-->
+    <!--            android:textSize="15sp"-->
+    <!--            app:layout_constraintStart_toStartOf="@id/tvPhoneItem"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/tvPhoneItem" />-->
+
+    <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <!--</androidx.cardview.widget.CardView>-->
+
+    <!--    &lt;!&ndash;        <TextView&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:id="@id/tvIdItem"&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:layout_marginTop="32dp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:text="Full Name"&ndash;&gt;-->
+    <!--    &lt;!&ndash;            android:textSize="15sp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;            app:layout_constraintStart_toStartOf="@id/tvPhoneItem"&ndash;&gt;-->
+    <!--    &lt;!&ndash;            app:layout_constraintTop_toTopOf="@id/tvPhoneItem" />&ndash;&gt;-->

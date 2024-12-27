@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <color name="purple_500">#1E88E5</color>
+        <color name="purple_700">#D32F2F</color>
+        <color name="white">#F5F5F5</color>
+        <color name="teal_200">#FFFFFF</color>
+        <color name="teal_700">#757575</color>
+        <color name="black">#FFC107</color>
+        <color name="cardShadow">#E0E0E0</color>
+        <color name="lilac">#664ea3</color>
+    </resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="Navigation_View">
+
+    <group
+        android:checkableBehavior="single"/>
+
+    <item
+        android:id="@+id/rate"
+        android:title="Rate App"
+        android:icon="@drawable/image_rate"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="Share this app!"
+        android:icon="@drawable/img_share"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/img_about" />
+
+</menu>
